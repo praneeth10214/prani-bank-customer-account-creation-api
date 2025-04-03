@@ -1,0 +1,19 @@
+
+http: 
+   port: "8081"
+db:
+ sfc:
+  acctname : "EFAJEDU-WH63721"
+  warehouse : "COMPUTE_WH"
+  database : "PRANI"
+  schema : "BFS"
+  user : "rishiprani214"
+  psd : "Medhanshmyson214"
+  role : "ACCOUNTADMIN"
+  
+email:
+  config: 
+    host: "smtp.gmail.com"
+    port: "587"
+    user: "jpraneeth28@gmail.com"
+    password: "gmxmuvlixdsrazlc"
