@@ -189,7 +189,7 @@ output application/json
 }]]></ee:set-payload>
                     </ee:message>
                 </ee:transform>
-				<logger level="INFO" doc:name="the record is exist in DB" doc:id="b459f018-9740-4519-a355-c825878d3a59" message="..............The customer ACCT already exist in DB............."/>
+				<logger level="INFO" doc:name="the record is exist in DB" doc:id="b459f018-9740-4519-a355-c825878d3a59" message="..............The customer ACCT already exist in DB..."/>
             </when>
             <otherwise>
                 <snowflake:insert doc:name="Insert" doc:id="47ea5bba-a4e4-49ea-99de-d5f8cd65896e" config-ref="Snowflake_Config">
